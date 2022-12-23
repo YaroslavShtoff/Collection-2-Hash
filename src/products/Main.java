@@ -48,9 +48,6 @@ public class Main {
             printInfo(listProduct);
         }
         Set<Recipe> recipes = new HashSet<>();
-        Recipe recipe = new Recipe("Винегрет",listProducts, 1320);
-
-
         recipes = new HashSet<>();
         ListRecipes listRecipe = new ListRecipes(recipes);
 
