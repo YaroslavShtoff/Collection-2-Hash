@@ -10,7 +10,7 @@ public class Main {
         passports.add(new Passport("1109", "Александр", "Овечкин", "Михайлович", LocalDate.now().minusYears(14)));
         passports.add(new Passport("3315", "Ибрагим", "Магамедов", "Исаевич", LocalDate.now().minusYears(87)));
         PassportList passportList = new PassportList(passports);
-        System.out.println(passportList);
+        System.out.println(passportList );
 
 
     }

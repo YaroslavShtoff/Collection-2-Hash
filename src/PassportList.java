@@ -1,7 +1,7 @@
 import java.util.Set;
 
 public class PassportList {
-    Set<Passport> passports;
+    Set<Passport>  passports;
 
     public PassportList(Set<Passport> passports) {
         this.passports = passports;

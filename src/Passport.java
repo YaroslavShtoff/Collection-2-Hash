@@ -4,11 +4,11 @@ import java.util.Objects;
 public class Passport {
 
 
-    private String number;
-    private String name;
-    private String surname;
-    private String patronymicName;
-    private LocalDate birthday;
+    private String  number;
+    private String  name;
+    private String  surname;
+    private String  patronymicName;
+    private LocalDate  birthday;
 
     public Passport(String number, String name, String surname, String patronymicName, LocalDate birthday) {
         this.number = number;
