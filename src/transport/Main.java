@@ -4,8 +4,10 @@ import transport.driver.DriverB;
 import transport.driver.DriverC;
 import transport.driver.DriverD;
 
-import java.util.List;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 
 public class Main {
     private static final Random RANDOM = new Random();
@@ -102,10 +104,10 @@ public class Main {
                  bus1,
                 track1 );*/
 
-        List<Transport> transports = List.of(
-                car1,
+        Set<Transport> transports = new HashSet<>(Arrays.asList(car1,
                 track1,
-                bus1);
+                bus1));
+
         ServiceStation serviceStation = new ServiceStation();
         serviceStation.addCar(car1);
         serviceStation.addTrack(track1);
